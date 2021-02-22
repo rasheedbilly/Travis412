@@ -30,6 +30,11 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testDivide() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.divide(6, 3), 2);
+		try {
+			assertEquals(calc.divide(6, 3), 2);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
