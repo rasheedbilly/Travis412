@@ -18,6 +18,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testSubtract() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.subtract(5, 3), 2);
+		assertEquals(calc.minus(5, 3), 2);
 	}
 }
